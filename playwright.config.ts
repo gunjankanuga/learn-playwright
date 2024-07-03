@@ -3,7 +3,7 @@ import { dot } from "node:test/reporters";
 import { json } from "stream/consumers";
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/jquerydd.test.ts"],
+  testMatch: ["tests/frames.test.ts"],
   use: {
     headless: false,
     screenshot: "on",
